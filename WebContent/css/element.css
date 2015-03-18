@@ -1,0 +1,374 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+	display:block
+}
+html {
+	height:100%
+}
+body {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	color:#fff
+}
+.hover:hover {
+	cursor:pointer
+}
+.tooltip {
+	height:26px;
+	color:#fff;
+	text-align:center;
+	padding:9px0 0 0
+}
+.tooltip_arrow {
+	height:12px;
+	background-position:center top;
+	background-repeat:no-repeat
+}
+.tooltip2 {
+	height:24px;
+	color:#fff;
+	text-align:center;
+	padding:8px0 0 0
+}
+.tooltip_arrow2 {
+	height:12px;
+	background-position:center top;
+	background-repeat:no-repeat
+}
+.mobile.optimizeMe {
+	-webkit-transform:translate3d(0px,0px,0px)
+}
+#scrollBar {
+	position:absolute;
+	z-index:1000;
+	top:0px;
+	height:100%;
+	right:0px;
+	width:7px;
+	background-color:#000;
+	z-index:999
+}
+.mobile#scrollBar {
+	display:none
+}
+.bg-track {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:40px;
+	width:100%;
+	background-color:#fff
+}
+#container {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:100%
+}
+#autoplay {
+	position:absolute;
+	top:-23px;
+	right:140px;
+	width:106px;
+	z-index:999;
+	height:20px;
+	background-image:url("../images/autoplay.png")
+}
+.ipad#autoplay {
+	right:40px
+}
+#autoplay.disabled {
+	background-position:0px -20px
+}
+#sound.disabled {
+	background-position:0px -20px
+}
+#separation {
+	position:absolute;
+	top:-23px;
+	right:128px;
+	margin-left:513px;
+	width:8px;
+	height:20px;
+	z-index:999;
+	background-image:url("../images/separation.png")
+}
+#sound {
+	position:absolute;
+	top:-23px;
+	right:38px;
+	width:84px;
+	z-index:999;
+	height:20px;
+	background-image:url("../images/sound.png")
+}
+#scrollContainer {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1
+}
+#status {
+	z-index:9999;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	background-color:#000;
+	width:150px;
+	color:#fff;
+	font-family:sans-serif;
+	font-size:9px;
+	width:100px;
+	padding:5px
+}
+#main {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:100%
+}
+#verticalContainer {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden
+}
+#horizontalContainer {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden
+}
+#verticalContainer2 {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	z-index:51
+}
+#verticalScrollArea {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%
+}
+#horizontalScroll2 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0%;
+	bottom:0px;
+	z-index:54
+}
+#verticalScrollArea2 {
+	position:absolute;
+	top:-100%;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:51
+}
+#horizontalScrollArea {
+	position:absolute;
+	height:100%;
+	width:1000%;
+	left:100%;
+	bottom:0px;
+	z-index:51
+}
+#horizontalScrollArea2 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:100%;
+	bottom:0px;
+	z-index:54
+}
+.mobile #verticalScrollArea2,.mobile #horizontalContainer,.mobile#horizontalScroll2 {
+	display:none
+}
+.section {
+	position:relative;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto
+}
+#loader {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	z-index:999
+}
+#loader-icon {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-14px;
+	margin-left:-14px
+}
+
+.behind {
+	z-index:48;
+	margin-top:200%
+}
+.behind.selected {
+	margin-top:0px
+}
+.onTop {
+	z-index:46
+}
+
+#progress {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:0%;
+	height:100%;
+	background-color:#fff
+}
+#processing {
+	position:absolute;
+	bottom:50px;
+	left:50%;
+	width:77px;
+	height:17px;
+	margin-left:-38px;
+	background-image:url("../images/loader.png")
+}
+
+#stage3-1 {
+/* 	position:absolute; */
+/* 	width:100%; */
+/* 	height:100%; */
+/* 	top:0px; */
+/* 	left:0px; */
+/* 	background-color:#000; */
+/* 	overflow:hidden; */
+/* 	position:relative */
+	height:100%;
+	position:relative
+}
+/* #stage3-1.content { */
+/* 	height:100%; */
+/* 	width:100%; */
+/* 	position:relative; */
+/* 	overflow:hidden */
+/* } */
+#stage3-1-bg {
+	width:100%;
+	height:100%;
+	position:absolute;
+/* 	bottom:-100px; */
+/* 	top:-1220px; */
+	left:0px;
+	z-index:49
+}
+#stage3-1-jp-top {
+	width:100%;
+	height:100%;
+	position:absolute;
+/* 	bottom:-100px; */
+	top:0px;
+	left:0px;
+	z-index:50
+}
+#stage3-1-jp-shadow {
+	width:100%;
+	height:100%;
+	position:absolute;
+/* 	bottom:-100px; */
+	top:0px;
+	left:0px;
+	z-index:50
+}
+
+
+
+#stage3-2 {
+	height:100%;
+	position:relative
+}
+/* #stage3-2.content { */
+/* 	height:100%; */
+/* 	width:100%; */
+/* 	position:relative; */
+/* 	overflow:hidden */
+/* } */
+#stage3-2-slot {
+	height:720px;
+	width:1280px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	top:0px;
+	z-index:50
+}
+#stage3-2-bg {
+	height:720px;
+	width:1592px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:40
+}
+#stage3-2-drop {
+	height:100%;
+	width:100%;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	top:50px;
+	z-index:51
+}
+#stage3-2-jp-run {
+	height:720px;
+	width:802px;
+	position:absolute;
+/* 	bottom:0px; */
+	top:0px;
+	left:0px;
+	z-index:49
+}
+
+
+.has3d.cancelLeft {
+	left:0px !important;
+	-webkit-transform:translate3d(100%,0px,0px)
+}
+.has3d.keepLeft {
+	left:0px !important;
+	-webkit-transform:translate3d(0px,0px,0px)
+}
+.has3d.cancelTop {
+	top:0px !important;
+	-webkit-transform:translate3d(0px,100%,0px)
+}
+.has3d.keepTop {
+	top:0px !important;
+	-webkit-transform:translate3d(0px,0px,0px)
+}
+
+
+.iphone#autoplay {
+	top:100% !important;
+	margin-top:-70px;
+	right: 30px
+}

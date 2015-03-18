@@ -1,3 +1,16 @@
+// check mobile
+var isMobile = navigator.userAgent.match(/android|avantgo|android|Android|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od|ad)|iris|kindle|lge |maemo|meego.+mobile|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i) != null;
+// check 3d
+var has3d = ('WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix())
+
+// check iphone, ipad, ipod
+var isiPhone = navigator.userAgent.match(/iPhone/i) != null;
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+var isiPod = navigator.userAgent.match(/iPod/i) != null;
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+var isiPhone = navigator.userAgent.match(/android|avantgo|android|Android|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|meego.+mobile|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i) != null;
+
+    
 function getInternetExplorerVersion() {
     var rv = -1;
     if (navigator.appName == 'Microsoft Internet Explorer') {
